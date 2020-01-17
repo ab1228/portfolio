@@ -1,4 +1,10 @@
-
+body {
+ 
+  height: 100%;
+  width: 100%;
+  background: #DCD0C0;
+  overflow-x: hidden;
+}
 
 
 
@@ -10,10 +16,11 @@
     list-style: none;
     
 }
+
 .img-profile {
     max-width: 10rem;
     max-height: 10rem;
-    border: 0.5rem solid rgba(255, 255, 255, 0.2);
+    border: 0.5rem solid #adb5bd;
 }
 
 /*///////////////////////////////////////////////////
@@ -62,8 +69,14 @@ NAVBAR
     width: 100%;
   }
 
-  #horizontalNav .navbar {
-  background: #c0b283;
+ 
+
+.bg-primary {
+    background-color: #343a40!important;
+}
+.bg-dark {
+    background-color: #e0c05f!important;
+    border-bottom: 5px solid #adb5bd;
 }
 
 /*////////////////////////////////////////////
@@ -83,8 +96,12 @@ Footer
 .fa-github,
 .fa-envelope {
  
-  color: #b3cdd1 !important;
+  color:#343a40 !important;
   font-size: 3rem; 
+  font-weight: 700;
+  letter-spacing: 10px;
+  padding-right: 10px;
+    
  
 }
 /*///////////////////////////////////
@@ -94,11 +111,44 @@ LANDING PAGE
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 93vh;
+  min-height: 30vh;
 }
+
 h1.mb-0 {
-   text-transform: uppercase;
+  text-transform: uppercase;
+  font-family: 'Bitter', serif;
+  font-size: 6rem;
+  line-height: 5.5rem;
+
+}
+.text-primary {
+    color:  #343a40!important;
+}
+a {
+    color: #F4F4F4;
+}
+.text-white {
+  color: #adb5bd;
 }
 
+/*//////////////////////////////////
+CONTACT PAGE
+///////////////////////////////////*/
 
 
+section#contact .form-group input,
+section#contact .form-group textarea {
+  padding: 23px;
+}
+
+section#contact .form-group input.form-control {
+  height: auto;
+}
+
+section#contact .form-group textarea.form-control {
+  height: 248px;
+}
+.btn-primary {
+  background-color: #e0c05f;
+      border-color: #343a40;
+}
