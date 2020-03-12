@@ -160,7 +160,10 @@ PORTFOLIO
 /////////////////////////////*/
 
 
-
+.caption-content a.one {
+  border-right:solid 1px #fff;
+ padding-right: .25rem;
+}
 
 .portfolio-item {
   display: block;
