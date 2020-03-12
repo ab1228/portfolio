@@ -6,7 +6,9 @@ body {
   overflow-x: hidden;
 }
 
-
+li {
+  list-style: none;
+}
 
 .justify-content{
     display: flex;
@@ -159,6 +161,7 @@ PORTFOLIO
 
 
 
+
 .portfolio-item {
   display: block;
   position: relative;
@@ -190,7 +193,7 @@ PORTFOLIO
 
 .portfolio-item .caption .caption-content p {
   font-weight: 300;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .img-fluid {
   max-width: 100%;
@@ -221,9 +224,10 @@ PORTFOLIO
 }
 .portfolio-item .caption .caption-content {
     transition: opacity 0.25s;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 5rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
 }
 .portfolio-item img {
     -webkit-transition: -webkit-clip-path 0.25s ease-out;
@@ -235,9 +239,9 @@ PORTFOLIO
     clip-path: inset(2rem);
 }
 .portfolio-item:hover .caption {
-    background-color: rgba(29, 128, 159, 0.9);
+    background-color: rgba(49, 60, 63, 0.9);
     -webkit-clip-path: inset(2rem);
-    clip-path: inset(2rem);
+    /* clip-path: inset(2rem); */
 }
 
 
