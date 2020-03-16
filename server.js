@@ -1,19 +1,19 @@
 var express = require('express');
 
-var PORT = process.env.PORT || 8070;
+var PORT = process.env.PORT || 8075;
 
 
 var app = express();
 
-// app.use(express.static('public'));
-app.use(express.static(__dirname + '/public/'));
+app.use(express.static('public'));
+// app.use(express.static(__dirname + '/public/'));
 
 
 
 
 
 //middleware
-app.use(express.urlencoded({ extended: true }));
+app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
 
 //set handlebars

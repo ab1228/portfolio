@@ -1,4 +1,5 @@
 var path = require("path");
+const nodemailer = require("nodemailer");
 
 module.exports = function (app) {
 
@@ -24,6 +25,7 @@ module.exports = function (app) {
     app.get('*', (req, res) => {
         res.render('index');
     });
+
 
 
 };
