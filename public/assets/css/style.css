@@ -153,6 +153,10 @@ section#contact .form-group textarea.form-control {
 .btn-primary {
   background-color: #e0c05f;
       border-color: #343a40;
+    
+}
+.btn-primary:hover {
+    background-color:grey !important;
 }
 
 /*/////////////////////////////
