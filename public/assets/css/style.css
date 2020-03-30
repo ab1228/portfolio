@@ -5,6 +5,9 @@ body {
   background: #DCD0C0;
   overflow-x: hidden;
 }
+a {
+  text-decoration: none !important;
+}
 
 li {
   list-style: none;
